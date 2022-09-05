@@ -1,2 +1,5 @@
-config:
-  info: "master branch,springcloud-config/config-dev.yml version=4"
+spring:
+  application:
+    name: springcloud-config-dev
+  profiles:
+    active: dev
